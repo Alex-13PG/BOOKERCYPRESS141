@@ -26,7 +26,7 @@
 
 import login from '../fixtures/login.json'
 
-Cypress.Commands.add('crateToken', () => {
+Cypress.Commands.add('createToken', () => {
     cy.request({
         method: 'POST',
         url: '/auth',
